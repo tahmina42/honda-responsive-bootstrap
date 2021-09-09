@@ -1,0 +1,128 @@
+/*-------font family ---------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*------common style start-------*/
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+span.special-title {
+    color: #e76f51;
+}
+h1.section-title{
+    color: #000000;
+}
+p.section-subtitle {
+    color: #E76F51;
+    font-size: 14px;
+}
+/*------common style end-------*/
+
+/*------hero section style start-------*/
+section.hero.hero-bg {
+    background-color: #264653;
+    padding-top: 155px;
+    padding-bottom: 70px;
+}
+
+h3.hero-title {
+    font-size: 48px;
+}
+p.hero-text {
+    color: #E0E0E0;
+}
+p.hero-text.hero-subtitle-text {
+    font-size: 14px;
+}
+button.btn.hero-btn {
+    width: 170px;
+    background-color: #E76F51;
+}
+/*------hero section style end-------*/
+
+
+/*------featured section style start-------*/
+section.featured {
+    margin-bottom: 160px;
+}
+.text-center.featured-heading {
+    margin-bottom: 120px;
+}
+img.img-fluid.featured-img {
+    width: 290px;
+    height: 245px;
+}
+img.img-fluid.img-gray-scale {
+    filter: grayscale(100%);
+}
+
+/*------featured section style end-------*/
+
+/*------client section style start-------*/
+img.client-img {
+    /* border-radius: 50%; */
+    width: 150px;
+    height: 150px;
+}
+p.card-text {
+    color: #6C6C6C;
+}
+span.reviews {
+    color: #e76f51;
+}
+p.client-name {
+    color: #23A6F0;
+    font-size: 14px;
+}
+p.designation {
+    color: #252B42;
+    font-size: 14px;
+}
+.card.h-100.text-center {
+    padding: 35px;
+}
+
+/*------client section style end-------*/
+
+/*------faq section style start-------*/
+img.faq-img {
+    width: 430px;
+    height: auto;
+}
+.faq h1.section-title {
+    margin-top: 140px;
+    margin-bottom: 90px;
+}
+.accordion-custom-btn {
+    font-size: 20px;
+    color: #383838;
+}
+p.accordion-text {
+    color: #7E848C;
+}
+/*------faq section style end-------*/
+
+/*------service section style start-------*/
+.service-icon i {
+    font-size: 24px;
+}
+
+div#service-section {
+    background-color: #e76f51;
+    color: #fff;
+    padding: 40px;
+}
+
+/*------service section style end-------*/
+
+/*------contact section style start-------*/
+.contact-bottom-section {
+    background-color: #f4433608;
+    padding: 40px;
+}
+
+/*------contact section style end-------*/
